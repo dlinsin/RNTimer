@@ -66,6 +66,7 @@
 
 - (void)dealloc {
   [self invalidate];
+  [super dealloc];
 }
 
 - (void)fire {
